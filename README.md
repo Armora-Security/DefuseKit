@@ -1,7 +1,7 @@
 # DefuseKit
 VPN Server by Armora Security
 
-# 🔒 ArmoraVPN™ – Python-based Custom Tunneling Framework
+# 🔒 ArmoraVPN™ – Custom Tunneling Framework
 
 ## Features
 - Full network tunneling using TUN devices
@@ -16,26 +16,27 @@ VPN Server by Armora Security
 pip install pytun cryptography tk
 ```
 
-#### Usage
+## Usage
 
-Run Server
+### Run Server
 
 ```bash
 
 sudo python3 armora-vpn-server.py
 ```
 
-#### Run Client
+### Run Client
 
 ```bash
 
 sudo python3 armora-vpn-client.py
 ```
 
-#### Run Chat GUI
+### Run Chat GUI
 
 ```bash
 
 python3 gui/client_gui.py
 ```
+
 Note: Requires root access due to TUN device usage. 
