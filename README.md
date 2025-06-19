@@ -13,7 +13,8 @@ VPN Server by Armora Security
 
 ## Requirements
 ```bash
-pip install pytun cryptography tk```
+pip install pytun cryptography tk
+```
 
 #### Usage
 
@@ -21,7 +22,8 @@ Run Server
 
 ```bash
 
-sudo python3 armora-vpn-server.py```
+sudo python3 armora-vpn-server.py
+```
 
 #### Run Client
 
